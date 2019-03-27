@@ -11,9 +11,9 @@
 (3) 요구된 모든 기능을 구현하였는가. (  X   )
 
 (4) 미원성인 경우 어디까지 완성하였는지 기술하라.  
-    1. Bubble, Selection, Insertion 정렬의 경우 정렬해야할 데이터가 100000개 일 경우 소요시간이 너무 오래걸려 1000, 10000만 출력하였습니다.  
-    2. Quick1에서 Random1000, Reverse1000, Random10000까지는 확인이 되었으나 그 이후부터는 stack overflow가 되어 앞서말한 세가지 케이스만 출력하였습니다.  
-    3. Merge, Quick2, Quick3은 모든 케이스 구현 하였습니다.
+    - Bubble, Selection, Insertion 정렬의 경우 정렬해야할 데이터가 100000개 일 경우 소요시간이 너무 오래걸려 1000, 10000만 출력하였습니다.  
+    - Quick1에서 Random1000, Reverse1000, Random10000까지는 확인이 되었으나 그 이후부터는 stack overflow가 되어 앞서말한 세가지 케이스만 출력하였습니다.  
+    - Merge, Quick2, Quick3은 모든 케이스 구현 하였습니다.
 
 
 3. 기타 사항  
