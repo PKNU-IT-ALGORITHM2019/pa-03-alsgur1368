@@ -242,14 +242,15 @@ def main():
     #퀵소트1 마지막 값 피봇, reverse 10000부터 스택오버플로우 발생
     time_list=[]
     print("Quick1\t\t\t\t\t", end='')
-    for i in [1000,10000]:
+    for i in [1000,10000,100000]:
         unsort_list = input_random(i)
         start_time = time.time()
         quicksort1(unsort_list,0, i-1)
         end_time1 = time.time()-start_time
         time_list.append(end_time1)
-        if i == 10000:
-            break
+        if i >= 10000:
+            time_list.append(0.000)
+            continue
         unsort_list=input_reverse(i)
         start_time = time.time()
         quicksort1(unsort_list,0, len(unsort_list) - 1)
